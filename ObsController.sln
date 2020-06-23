@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObsUserLock", "ObsUserLock\ObsUserLock.csproj", "{A6E2068D-F0CA-42A8-88F9-A16C57464804}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObsController.Core", "ObsController.Core\ObsController.Core.csproj", "{3BDA7810-C7D3-4F41-8E05-D23791374127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsWeather", "ObsWeather\ObsWeather.csproj", "{53F1C06E-D1E9-4496-AB32-D20CB8285C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsClock", "ObsClock\ObsClock.csproj", "{DC7B7EF5-D335-4E81-9F6C-0607E3629986}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E2068D-F0CA-42A8-88F9-A16C57464804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E2068D-F0CA-42A8-88F9-A16C57464804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E2068D-F0CA-42A8-88F9-A16C57464804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E2068D-F0CA-42A8-88F9-A16C57464804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDA7810-C7D3-4F41-8E05-D23791374127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDA7810-C7D3-4F41-8E05-D23791374127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDA7810-C7D3-4F41-8E05-D23791374127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDA7810-C7D3-4F41-8E05-D23791374127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F1C06E-D1E9-4496-AB32-D20CB8285C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F1C06E-D1E9-4496-AB32-D20CB8285C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F1C06E-D1E9-4496-AB32-D20CB8285C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F1C06E-D1E9-4496-AB32-D20CB8285C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7B7EF5-D335-4E81-9F6C-0607E3629986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7B7EF5-D335-4E81-9F6C-0607E3629986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7B7EF5-D335-4E81-9F6C-0607E3629986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7B7EF5-D335-4E81-9F6C-0607E3629986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8898C3C7-E799-48EC-B2DF-36FE1985A96D}
+	EndGlobalSection
+EndGlobal
