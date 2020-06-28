@@ -16,8 +16,11 @@ namespace ObsController.Core
         {
             var json = string.Empty;
 
+            Log.WriteLogLine($"{General.SettingPath} から設定をロードしています");
+
             if (!File.Exists(General.SettingPath))
             {
+                Log.WriteLogLine("設定ファイルが見つかりませんでした。デフォルトをロードします");
                 var def = new T();
                 Save(def);
                 return def;
@@ -38,6 +41,8 @@ namespace ObsController.Core
         /// <param name="data"></param>
         public static void Save<T>(T data) where T : new()
         {
+            Log.WriteLogLine($"{General.SettingPath} に設定ファイルをセーブします");
+
             var json = JsonConvert.SerializeObject(data);
 
             using var wr = new StreamWriter(General.SettingPath, false);
