@@ -37,6 +37,7 @@ namespace ObsWeather
             if (string.IsNullOrWhiteSpace(Settings?.OpenWeatherMap.ApiKey))
             {
                 Log.WriteLogLine("OpenWeatherMap へ接続するための API Key が見つかりません", Log.LogType.Error);
+                await ConsoleHost.WaitAsync();
                 return;
             }
 
